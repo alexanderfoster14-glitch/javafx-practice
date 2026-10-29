@@ -1,0 +1,5 @@
+module javafx_practice {
+	requires javafx.controls;
+	
+	opens application to javafx.graphics, javafx.fxml;
+}
